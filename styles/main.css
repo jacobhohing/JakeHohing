@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+*
+{
+    font-family: 'League Spartan', sans-serif;
+}
+
+body
+{
+
+}
+
+
+.overlap sup
+{
+    font-size:1.8rem;
+}
+
+#at-custom-sidebar {
+    top: 20% !important;
+    bottom: auto;
+}
+
+.at-custom-sidebar.atss-left {
+    left: 0;
+    right: auto;
+    float: left;
+    border-radius: 0 4px 4px 0;
+}
+
+.at-custom-sidebar {
+    top: 20%;
+    width: 100px;
+    position: fixed;
+    text-align: center;
+    z-index: 100020;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    font: initial;
+    line-height: normal;
+    top: auto;
+    bottom: 0;
+    opacity:1;
+    padding-bottom:20px;
+}
+
+.at-custom-sidebar a
+{
+    background-color: rgb(255, 255, 255); 
+    height: 40px; 
+    width: 100px; 
+    display:block;
+    border-radius: 0%;
+    
+    color:#212529;
+    text-decoration: none;
+    font-size:2rem;
+    padding:32px 6px;
+}
+
+.at-custom-sidebar a i
+{
+  font-size:2rem;
+  
+}
+:root 
+{
+    --f--2-min: 14.5;
+    --f--2-max: 15;
+    --font-size-xs: calc( ((var(--f--2-min) / 16) * 1rem) + (var(--f--2-max) - var(--f--2-min)) * var(--fluid-bp) );
+    --f--1-min: 16;
+    --f--1-max: 16.5;
+    --font-size-sm: calc( ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) * var(--fluid-bp) );
+    --f-0-min: 20;
+    --f-0-max: 22;
+    --font-size-base: calc( ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) * var(--fluid-bp) );
+    --f-1-min: 25;
+    --f-1-max: 29.33;
+    --font-size-md: calc( ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) * var(--fluid-bp) );
+    --f-2-min: 31.25;
+    --f-2-max: 39.09;
+    --font-size-lg: calc( ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) * var(--fluid-bp) );
+    --f-3-min: 39.06;
+    --f-3-max: 52.11;
+    --font-size-xl: calc( ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) * var(--fluid-bp) );
+    --f-4-min: 48.83;
+    --f-4-max: 71;
+    --font-size-2xl: calc( ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) * var(--fluid-bp) );
+    --f-5-min: 61.04;
+    --f-5-max: 92.59;
+    --font-size-3xl: calc( ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) * var(--fluid-bp) );
+    --f-6-min: 76.29;
+    --f-6-max: 123.43;
+    --font-size-4xl: calc( ((var(--f-6-min) / 16) * 1rem) + (var(--f-6-max) - var(--f-6-min)) * var(--fluid-bp) );
+
+    --space-3xs: calc(((var(--fc-3xs-min) / 16) * 1rem) + (var(--fc-3xs-max) - var(--fc-3xs-min)) * var(--fluid-bp));
+    --space-2xs: calc(((var(--fc-2xs-min) / 16) * 1rem) + (var(--fc-2xs-max) - var(--fc-2xs-min)) * var(--fluid-bp));
+    --space-xs: calc(((var(--fc-xs-min) / 16) * 1rem) + (var(--fc-xs-max) - var(--fc-xs-min)) * var(--fluid-bp));
+    --space-s: calc(((var(--fc-s-min) / 16) * 1rem) + (var(--fc-s-max) - var(--fc-s-min)) * var(--fluid-bp));
+    --space-m: calc(((var(--fc-m-min) / 16) * 1rem) + (var(--fc-m-max) - var(--fc-m-min)) * var(--fluid-bp));
+    --space-l: calc(((var(--fc-l-min) / 16) * 1rem) + (var(--fc-l-max) - var(--fc-l-min)) * var(--fluid-bp));
+    --space-xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
+    --space-2xl: calc(((var(--fc-2xl-min) / 16) * 1rem) + (var(--fc-2xl-max) - var(--fc-2xl-min)) * var(--fluid-bp));
+    --space-3xl: calc(((var(--fc-3xl-min) / 16) * 1rem) + (var(--fc-3xl-max) - var(--fc-3xl-min)) * var(--fluid-bp));
+    --space-4xl: calc(((var(--fc-4xl-min) / 16) * 1rem) + (var(--fc-4xl-max) - var(--fc-4xl-min)) * var(--fluid-bp));
+    --space-3xs-2xs: calc(((var(--fc-3xs-min) / 16) * 1rem) + (var(--fc-2xs-max) - var(--fc-3xs-min)) * var(--fluid-bp));
+    --space-2xs-xs: calc(((var(--fc-2xs-min) / 16) * 1rem) + (var(--fc-xs-max) - var(--fc-2xs-min)) * var(--fluid-bp));
+    --space-xs-s: calc(((var(--fc-xs-min) / 16) * 1rem) + (var(--fc-s-max) - var(--fc-xs-min)) * var(--fluid-bp));
+    --space-s-m: calc(((var(--fc-s-min) / 16) * 1rem) + (var(--fc-m-max) - var(--fc-s-min)) * var(--fluid-bp));
+    --space-m-l: calc(((var(--fc-m-min) / 16) * 1rem) + (var(--fc-l-max) - var(--fc-m-min)) * var(--fluid-bp));
+    --space-l-xl: calc(((var(--fc-l-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-l-min)) * var(--fluid-bp));
+    --space-xl-2xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-2xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
+    --space-2xl-3xl: calc(((var(--fc-2xl-min) / 16) * 1rem) + (var(--fc-3xl-max) - var(--fc-2xl-min)) * var(--fluid-bp));
+    --space-3xl-4xl: calc(((var(--fc-3xl-min) / 16) * 1rem) + (var(--fc-4xl-max) - var(--fc-3xl-min)) * var(--fluid-bp));
+
+    --fc-3xs-min: (var(--fc-s-min) * 0.25);
+    --fc-3xs-max: (var(--fc-s-max) * 0.25);
+    --fc-2xs-min: (var(--fc-s-min) * 0.5);
+    --fc-2xs-max: (var(--fc-s-max) * 0.5);
+    --fc-xs-min: (var(--fc-s-min) * 0.75);
+    --fc-xs-max: (var(--fc-s-max) * 0.75);
+    --fc-s-min: (var(--f-0-min,20));
+    --fc-s-max: (var(--f-0-max,22));
+    --fc-m-min: (var(--fc-s-min) * 1.5);
+    --fc-m-max: (var(--fc-s-max) * 1.5);
+    --fc-l-min: (var(--fc-s-min) * 2);
+    --fc-l-max: (var(--fc-s-max) * 2);
+    --fc-xl-min: (var(--fc-s-min) * 3);
+    --fc-xl-max: (var(--fc-s-max) * 3);
+    --fc-2xl-min: (var(--fc-s-min) * 4);
+    --fc-2xl-max: (var(--fc-s-max) * 4);
+    --fc-3xl-min: (var(--fc-s-min) * 6);
+    --fc-3xl-max: (var(--fc-s-max) * 6);
+    --fc-4xl-min: (var(--fc-s-min) * 8);
+    --fc-4xl-max: (var(--fc-s-max) * 8);
+
+    --fluid-min-width: 320;
+    --fluid-max-width: 1200;
+    --fluid-screen: 100vw;
+    --fluid-bp: calc( (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) / (var(--fluid-max-width) - var(--fluid-min-width)) );
+
+    --leading-tighter: 110%;
+    --leading-tight: 120%;
+    --leading-snug: 130%;
+    --leading-base: 140%;
+    --leading-loose: 170%;
+    --leading-looser: 200%;
+
+}
+
+.opaque-nav
+{
+    background:rgba(255, 255, 255, 1);
+}
+
+.heading
+{
+    font-size: var(--font-size-2xl);
+    line-height: var(--leading-tighter);
+    font-weight: normal;
+    margin-bottom: var(--space-s);
+    max-width: 1200px;
+    color:#212529;
+}
+
+@media screen and (max-width: 768px){
+    .heading 
+    {
+        font-size: var(--font-size-xl);
+        max-width: 100%;
+        margin-bottom: var(--space-xs);
+    }
+}
+
+.sub-heading
+{
+    font-size: var(--font-size-lg);
+    font-weight: 300;
+    line-height: var(--leading-tighter);
+}
+
+.wrapper
+{
+    margin: var(--space-xs) auto var(--space-xl);
+    padding: 0 var(--space-xs);
+}
+
+.hot
+{
+    color:#fe373d;
+    font-weight:400;
+}
+
+.med-spacer
+{
+    height: var(--space-3xl);
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.shadow-box
+{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon-link
+{
+    font-size:1.6rem;
+}
